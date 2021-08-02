@@ -1,7 +1,3 @@
 # Project exclude paths
 /out/
 .idea
-
-all.json
-cn.iml
-translation.json

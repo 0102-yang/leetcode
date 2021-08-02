@@ -28,19 +28,20 @@
 // 输出: false
 //
 // Related Topics 字典树 记忆化搜索 哈希表 字符串 动态规划
-// 👍 1083 👎 0
+// 👍 1087 👎 0
 
-import java.util.Arrays;
+package ltd.yangliuqing.leetcode.editor.cn;
+
+// author: yang
+// create time: 2021-08-03 00:17:02
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
 class Test {
     public static void main(String[] args) {
-        Solution s = new Solution();
-        List<String> words = Arrays.asList("le", "et");
-        boolean res = s.wordBreak("leet", words);
-        System.out.println(res);
+        Solution solution = new Solution();
     }
 }
 
