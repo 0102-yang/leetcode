@@ -2,3 +2,6 @@
 /cmake-build-debug
 /out/
 .idea
+
+CMakeLists.txt
+test.cpp
