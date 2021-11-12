@@ -7,10 +7,13 @@ package leetcode.editor.cn;
 class UHnkqh {
 
     class ListNode {
+
         int val;
+
         ListNode next;
 
-        ListNode() {}
+        ListNode() {
+        }
 
         ListNode(int val) {
             this.val = val;
@@ -20,15 +23,18 @@ class UHnkqh {
             this.val = val;
             this.next = next;
         }
+
     }
 
     // leetcode submit region begin(Prohibit modification and deletion)
+
     /**
      * Definition for singly-linked list. public class ListNode { int val; ListNode next; ListNode()
      * {} ListNode(int val) { this.val = val; } ListNode(int val, ListNode next) { this.val = val;
      * this.next = next; } }
      */
     class Solution {
+
         public ListNode reverseList(ListNode head) {
             return this.recur(head, null);
         }
@@ -41,6 +47,7 @@ class UHnkqh {
             cur.next = pre;
             return res;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

@@ -15,6 +15,7 @@ class ZeroH97ZC {
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public int[] relativeSortArray(int[] arr1, int[] arr2) {
             LinkedHashMap<Integer, Integer> numsInArray = new LinkedHashMap<>(arr2.length);
             TreeMap<Integer, Integer> numsNotInArray = new TreeMap<>();
@@ -52,6 +53,7 @@ class ZeroH97ZC {
 
             return arr1;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

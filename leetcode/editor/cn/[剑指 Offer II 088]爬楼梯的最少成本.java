@@ -8,6 +8,7 @@ class GzCJIP {
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public int minCostClimbingStairs(int[] cost) {
             int[] dpArray = new int[cost.length];
             dpArray[0] = cost[0];
@@ -19,6 +20,7 @@ class GzCJIP {
 
             return Math.min(dpArray[dpArray.length - 1], dpArray[dpArray.length - 2]);
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

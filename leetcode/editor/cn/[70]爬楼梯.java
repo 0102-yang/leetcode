@@ -30,10 +30,13 @@ package leetcode.editor.cn;
 // createTime: 2021-08-09 18:49:24
 
 class ClimbingStairs {
-    public static void main(String[] args) {}
+
+    public static void main(String[] args) {
+    }
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public int climbStairs(int n) {
             int p = 1, q = 1, r;
             for (int i = 0; i < n; i++) {
@@ -43,6 +46,7 @@ class ClimbingStairs {
             }
             return p;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

@@ -62,10 +62,13 @@ package leetcode.editor.cn;
 import java.util.LinkedList;
 
 class ValidParentheses {
-    public static void main(final String[] args) {}
+
+    public static void main(final String[] args) {
+    }
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         private final LinkedList<Character> list = new LinkedList<>();
 
         public boolean isValid(String s) {
@@ -95,6 +98,7 @@ class ValidParentheses {
             }
             return this.list.size() == 0;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

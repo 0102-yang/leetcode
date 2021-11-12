@@ -59,10 +59,13 @@ package leetcode.editor.cn;
 // createTime: 2021-08-09 17:12:42
 
 class MaximumSubarray {
-    public static void main(String[] args) {}
+
+    public static void main(String[] args) {
+    }
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public int maxSubArray(int[] nums) {
             int tmp = 0, res = nums[0];
 
@@ -73,6 +76,7 @@ class MaximumSubarray {
 
             return res;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

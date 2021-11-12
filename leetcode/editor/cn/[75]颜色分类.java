@@ -62,10 +62,13 @@ package leetcode.editor.cn;
 // createTime: 2021-08-05 21:54:23
 
 class SortColors {
-    public static void main(String[] args) {}
+
+    public static void main(String[] args) {
+    }
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public static void sortColors(int[] nums) {
             int begin = 0;
             int end = nums.length - 1;
@@ -89,6 +92,7 @@ class SortColors {
             nums[j] = nums[i] ^ nums[j];
             nums[i] = nums[i] ^ nums[j];
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

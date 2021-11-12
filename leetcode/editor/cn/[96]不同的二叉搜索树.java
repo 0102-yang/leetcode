@@ -32,12 +32,14 @@ package leetcode.editor.cn;
 // createTime: 2021-08-07 09:26:59
 
 class UniqueBinarySearchTrees {
+
     public static void main(final String[] args) {
         Solution.numTrees(3);
     }
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public static int numTrees(final int n) {
             final int[] arr = new int[n + 1];
             arr[0] = arr[1] = 1;
@@ -50,6 +52,7 @@ class UniqueBinarySearchTrees {
 
             return arr[n];
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

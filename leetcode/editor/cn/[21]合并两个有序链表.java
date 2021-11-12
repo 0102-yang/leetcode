@@ -41,13 +41,18 @@ package leetcode.editor.cn;
 // createTime: 2021-08-09 00:37:36
 
 class MergeTwoSortedLists {
-    public static void main(String[] args) {}
+
+    public static void main(String[] args) {
+    }
 
     class ListNode {
+
         int val;
+
         ListNode next;
 
-        ListNode() {}
+        ListNode() {
+        }
 
         ListNode(int val) {
             this.val = val;
@@ -57,15 +62,18 @@ class MergeTwoSortedLists {
             this.val = val;
             this.next = next;
         }
+
     }
 
     // leetcode submit region begin(Prohibit modification and deletion)
+
     /**
      * Definition for singly-linked list. public class ListNode { int val; ListNode next; ListNode()
      * {} ListNode(int val) { this.val = val; } ListNode(int val, ListNode next) { this.val = val;
      * this.next = next; } }
      */
     class Solution {
+
         public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
             ListNode head = new ListNode(), tmp = head;
             while (l1 != null && l2 != null) {
@@ -87,6 +95,7 @@ class MergeTwoSortedLists {
             }
             return head.next;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

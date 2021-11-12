@@ -2,26 +2,6 @@ package leetcode.editor.cn;
 
 import java.util.ArrayList;
 
-class ListNode {
-
-    int val;
-
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-}
-
 /**
  * @author yang
  * @date 2021-10-04 11:09:48

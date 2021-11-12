@@ -52,6 +52,7 @@ package leetcode.editor.cn;
 // createTime: 2021-08-06 09:49:40
 
 class SearchInRotatedSortedArray {
+
     public static void main(String[] args) {
         int[] nums = {4, 5, 6, 7, 0, 1, 2};
         Solution.search(nums, 3);
@@ -59,6 +60,7 @@ class SearchInRotatedSortedArray {
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public static int search(int[] nums, int target) {
             int begin = 0;
             int end = nums.length - 1;
@@ -87,6 +89,7 @@ class SearchInRotatedSortedArray {
 
             return -1;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

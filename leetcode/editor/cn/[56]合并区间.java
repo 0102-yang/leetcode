@@ -41,10 +41,13 @@ import java.util.Map;
 import java.util.TreeMap;
 
 class MergeIntervals {
-    public static void main(String[] args) {}
+
+    public static void main(String[] args) {
+    }
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public static int[][] merge(int[][] intervals) {
             // 将数组按照第一个元素的大小排序
             Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
@@ -78,6 +81,7 @@ class MergeIntervals {
 
             return res;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

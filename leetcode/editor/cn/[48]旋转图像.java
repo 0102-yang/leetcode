@@ -51,13 +51,15 @@ package leetcode.editor.cn;
 // createTime: 2021-08-04 17:17:17
 
 class RotateImage {
+
     public static void main(String[] args) {
-        int[][] array = new int[][] {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        int[][] array = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         Solution.rotate(array);
     }
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public static void rotate(int[][] matrix) {
             for (var line : matrix) {
                 Solution.reverseArray(line);
@@ -92,6 +94,7 @@ class RotateImage {
             arr[a][b] = arr[i][j];
             arr[i][j] = temp;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

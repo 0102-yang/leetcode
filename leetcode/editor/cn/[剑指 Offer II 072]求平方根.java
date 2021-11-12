@@ -12,6 +12,7 @@ class JJ0w9p {
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public int mySqrt(int x) {
             int left = 1, right = x / 2 + 1;
             while (left <= right) {
@@ -28,6 +29,7 @@ class JJ0w9p {
 
             return right;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

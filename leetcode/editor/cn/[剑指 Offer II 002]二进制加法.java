@@ -8,6 +8,7 @@ class JFETK5 {
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public String addBinary(String a, String b) {
             StringBuilder resBuilder = new StringBuilder();
 
@@ -44,6 +45,7 @@ class JFETK5 {
 
             return resBuilder.reverse().toString();
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

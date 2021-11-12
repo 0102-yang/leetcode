@@ -7,10 +7,13 @@ package leetcode.editor.cn;
 class ThreeU1WK4 {
 
     class ListNode {
+
         int val;
+
         ListNode next;
 
-        ListNode() {}
+        ListNode() {
+        }
 
         ListNode(int val) {
             this.val = val;
@@ -20,14 +23,17 @@ class ThreeU1WK4 {
             this.val = val;
             this.next = next;
         }
+
     }
 
     // leetcode submit region begin(Prohibit modification and deletion)
+
     /**
      * Definition for singly-linked list. public class ListNode { int val; ListNode next;
      * ListNode(int x) { val = x; next = null; } }
      */
     public class Solution {
+
         public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
             ListNode a = headA;
             ListNode b = headB;
@@ -66,6 +72,7 @@ class ThreeU1WK4 {
 
             return null;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

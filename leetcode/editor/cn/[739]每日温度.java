@@ -40,10 +40,13 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 class DailyTemperatures {
-    public static void main(String[] args) {}
+
+    public static void main(String[] args) {
+    }
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public int[] dailyTemperatures(int[] temperatures) {
             int length = temperatures.length;
             int[] res = new int[length];

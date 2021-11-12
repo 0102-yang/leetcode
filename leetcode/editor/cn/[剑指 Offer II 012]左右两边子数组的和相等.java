@@ -8,6 +8,7 @@ class Tvdfij {
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public int pivotIndex(int[] nums) {
             int leftSum = 0;
             int rightSum = 0;
@@ -25,6 +26,7 @@ class Tvdfij {
 
             return -1;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

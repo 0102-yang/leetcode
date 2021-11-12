@@ -40,10 +40,13 @@ import java.util.List;
 import java.util.Set;
 
 class WordBreak {
-    public static void main(String[] args) {}
+
+    public static void main(String[] args) {
+    }
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public static boolean wordBreak(String s, List<String> wordDict) {
             Set<String> wordDictSet = new HashSet<>(wordDict);
             boolean[] dpArray = new boolean[s.length() + 1];
@@ -60,6 +63,7 @@ class WordBreak {
 
             return dpArray[dpArray.length - 1];
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

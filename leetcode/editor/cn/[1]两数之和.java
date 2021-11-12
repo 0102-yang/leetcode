@@ -53,25 +53,28 @@ import java.util.HashMap;
 import java.util.Map;
 
 class TwoSum {
+
     public static void main(String[] args) {
-        var list = Solution.twoSum(new int[] {2, 7, 11, 15}, 9);
+        var list = Solution.twoSum(new int[]{2, 7, 11, 15}, 9);
         System.out.println(Arrays.toString(list));
     }
 
     // leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public static int[] twoSum(int[] nums, int target) {
             Map<Integer, Integer> m = new HashMap<>();
 
             for (int i = 0; i < nums.length; i++) {
                 if (m.containsKey(target - nums[i])) {
-                    return new int[] {m.get(target - nums[i]), i};
+                    return new int[]{m.get(target - nums[i]), i};
                 }
                 m.put(nums[i], i);
             }
 
-            return new int[] {};
+            return new int[]{};
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 

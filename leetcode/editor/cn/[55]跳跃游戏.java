@@ -39,6 +39,7 @@ package leetcode.editor.cn;
 // createTime: 2021-08-06 19:18:59
 
 class JumpGame {
+
     public static void main(String[] args) {
         int[] nums = {2, 3, 1, 1, 4};
         Solution.canJump(nums);
@@ -82,6 +83,7 @@ class JumpGame {
             }
             return false;
         }
+
     }
     // leetcode submit region end(Prohibit modification and deletion)
 
